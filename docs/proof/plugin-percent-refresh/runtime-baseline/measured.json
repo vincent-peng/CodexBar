@@ -1,0 +1,99 @@
+{
+  "animationDriverActive" : false,
+  "backgroundWorkSettingsRevision" : 6,
+  "baseline" : true,
+  "baselineProofPassed" : true,
+  "blinkTaskActive" : false,
+  "buildTimestamp" : "2026-10-26T23:37:08Z",
+  "bundleIdentifier" : "com.steipete.codexbar.proof.baseline",
+  "buttonAttributedTitle" : " 77%",
+  "buttonFrameInScreen" : {
+    "height" : 22,
+    "width" : 69,
+    "x" : 966,
+    "y" : 1089.5
+  },
+  "buttonHasImage" : true,
+  "buttonTitle" : " 77%",
+  "configRevision" : 0,
+  "countdownTaskActive" : false,
+  "defaultsFingerprint" : "5197538c73f57f745e66643db2104eb51875a67530d38fb9e9eb79afd08d39fb",
+  "elapsedSeconds" : 13.580000042915344,
+  "enabledProviders" : [
+    "proof-monthly-pool"
+  ],
+  "executable" : "\/private\/tmp\/codexbar-4787-proof.Bda9te\/Baseline.app\/Contents\/MacOS\/CodexBar",
+  "forcedControlCompleted" : false,
+  "forcedControlPassed" : false,
+  "frameOnVisibleDisplay" : true,
+  "gitCommit" : "f37cc8120",
+  "home" : "\/tmp\/codexbar-4787-proof.Bda9te\/runtime-baseline\/home",
+  "hooksObserved" : true,
+  "initialBackgroundWorkSettingsRevision" : 6,
+  "initialConfigRevision" : 0,
+  "initialDefaultsFingerprint" : "5197538c73f57f745e66643db2104eb51875a67530d38fb9e9eb79afd08d39fb",
+  "initialPluginSourceHash" : "150ab19f644d29264a5cecfc22c85ec948ebca098dcd454862312919b200d670",
+  "initialTitle" : "77%",
+  "initialTitleCorrect" : true,
+  "measuredObserverUpdates" : 0,
+  "measuredOtherUpdates" : 0,
+  "measuredTitle" : "77%",
+  "measuredTitleMatchesMode" : true,
+  "measurementCompleted" : true,
+  "menuBarIconStyle" : "iconAndPercent",
+  "mergedMenuLastSelectedWasOverview" : false,
+  "mergeIcons" : true,
+  "mergeIconsStacked" : false,
+  "monthlyUsedPercent" : 80,
+  "networkAttempts" : 0,
+  "notificationAttempts" : 0,
+  "observerProofPassed" : false,
+  "openMenus" : 0,
+  "output" : "\/tmp\/codexbar-4787-proof.Bda9te\/runtime-baseline",
+  "phase" : "measured-complete",
+  "pid" : 92114,
+  "pluginID" : "proof-monthly-pool",
+  "pluginSourceHash" : "150ab19f644d29264a5cecfc22c85ec948ebca098dcd454862312919b200d670",
+  "primaryProviderForIcon" : "proof-monthly-pool",
+  "primaryUsedPercent" : 10,
+  "screens" : [
+    {
+      "height" : 1117,
+      "width" : 1728,
+      "x" : 0,
+      "y" : 0
+    }
+  ],
+  "selectedLayout" : {
+    "lines" : [
+      [
+        {
+          "lanePercent" : {
+            "lane" : "tertiary"
+          }
+        }
+      ]
+    ]
+  },
+  "selectedProvider" : "proof-monthly-pool",
+  "selectedWindow" : "tertiary",
+  "selectedWindowLabel" : "Monthly",
+  "settingsUnchangedSinceReady" : true,
+  "settingsWindowNumber" : 3961,
+  "snapshotUpdatedAt" : 1800000000,
+  "statusItemLength" : -1,
+  "statusItemVisible" : true,
+  "statusItemWindowFrame" : {
+    "height" : 33,
+    "width" : 69,
+    "x" : 966,
+    "y" : 1084
+  },
+  "storeIconSignature" : "merge=1|visible=proof-monthly-pool|primary=proof-monthly-pool|source=currentSelection|focus=nil|iconStyle=codex|showUsed=1|brandPercent=1|hideCritters=0|needsAnimation=0|proof-monthly-pool|percent=0.000|error=false|source=150ab19f644d29264a5cecfc22c85ec948ebca098dcd454862312919b200d670",
+  "timestamp" : "2026-10-26T23:45:20Z",
+  "totalIconUpdates" : 1,
+  "unifiedIconSource" : "currentSelection",
+  "usageBarsShowUsed" : true,
+  "weeklyUsedPercent" : 0,
+  "windowNumber" : 4294967296
+}

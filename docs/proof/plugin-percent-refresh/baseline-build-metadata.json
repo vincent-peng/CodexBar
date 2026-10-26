@@ -1,0 +1,14 @@
+{
+  "phase": "baseline",
+  "productionHead": "f37cc8120f7e1cfca4f2093018f62e9e0b537528",
+  "baselineProduction": "7749f7b94ae8f1b84b9ffb2046643cec810f4078",
+  "bundleIdentifier": "com.steipete.codexbar.proof.baseline",
+  "executableSHA256": "b492264ab6ae9bb4d59d99f3dcd84e42b9a4002839762b0d2206e970b21a934e",
+  "sourceSHA256": {
+    "Sources/CodexBar/Menu/PluginPercentRefreshProof.swift": "93921c13a8823a1584736050dc4efa3551e42bea2a79708a7dbedf70ec3b5efa",
+    "Sources/CodexBar/StatusItem/StatusItemController+IconObservation.swift": "691df2afcf872716d7832bb9303ed5306b3106ba81d730cc7a9195fd5a476863",
+    "Sources/CodexBar/StatusItem/StatusItemController.swift": "17946673d818ab8bff75a270a1f5a60377c640e61d328d07897774104870708c",
+    "Sources/CodexBar/CodexbarApp.swift": "19761f27c316f4bb3363c48bc951423935c273c938cbf852cfc6b8aee4e32d48"
+  },
+  "note": "Temporary synthetic startup and append-only updateIcons receipts; no production render override."
+}

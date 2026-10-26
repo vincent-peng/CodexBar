@@ -1,0 +1,27 @@
+diff --git a/Sources/CodexBar/CodexbarApp.swift b/Sources/CodexBar/CodexbarApp.swift
+index 8f29a4227..8d7f8d884 100644
+--- a/Sources/CodexBar/CodexbarApp.swift
++++ b/Sources/CodexBar/CodexbarApp.swift
+@@ -27,6 +27,9 @@ enum CodexBarEntryPoint {
+             exit(CodexBarCoreResourceSmoke.run())
+         }
+         #if DEBUG
++        if PluginPercentRefreshProof.runIfRequested() {
++            return
++        }
+         if MenuBarLayoutNativeProof.runIfRequested() {
+             return
+         }
+diff --git a/Sources/CodexBar/StatusItem/StatusItemController.swift b/Sources/CodexBar/StatusItem/StatusItemController.swift
+index 28d0f9d93..4ee49c796 100644
+--- a/Sources/CodexBar/StatusItem/StatusItemController.swift
++++ b/Sources/CodexBar/StatusItem/StatusItemController.swift
+@@ -710,6 +710,8 @@ final class StatusItemController: NSObject, NSMenuDelegate, StatusItemControllin
+     func updateIcons(precomputedStoreIconSignature: String? = nil) {
+         #if DEBUG
+         guard !self.isReleasedForTesting else { return }
++        PluginPercentRefreshProof.beginIconUpdate(precomputed: precomputedStoreIconSignature)
++        defer { PluginPercentRefreshProof.endIconUpdate() }
+         #endif
+         MainThreadActivityBreadcrumb.push("updateIcons")
+         self.scheduleMenuBarCountdownRefreshIfNeeded()

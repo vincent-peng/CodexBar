@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "pid": 92114,
+    "initialTitle": " 77%",
+    "monthlyAfter": 80,
+    "weeklyAfter": 0,
+    "titleAfterSnapshotOnly": " 77%",
+    "observerUpdates": 0,
+    "otherUpdates": 0,
+    "settingsUnchanged": true
+  },
+  "fixed": {
+    "pid": 92132,
+    "initialTitle": " 77%",
+    "monthlyAfter": 80,
+    "weeklyAfter": 0,
+    "titleAfterSnapshotOnly": " 80%",
+    "observerUpdates": 1,
+    "otherUpdates": 0,
+    "settingsUnchanged": true
+  }
+}
