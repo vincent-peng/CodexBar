@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.82.1 — Unreleased
+
+### Fixed
+
+- Plugins: refresh the selected menu-bar percentage when its usage changes while the automatic window stays unchanged (#4787).
+
 ## 0.82.0 — 2026-10-26
 
 ### Highlights
