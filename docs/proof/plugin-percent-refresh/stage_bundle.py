@@ -34,7 +34,7 @@ files = [
 metadata = {
     "phase": phase,
     "productionHead": subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip(),
-    "baselineProduction": "7749f7b94ae8f1b84b9ffb2046643cec810f4078",
+    "baselineProduction": "5f93dc3068b3bee3f8753f3772614cc2949c335d",
     "bundleIdentifier": plist["CFBundleIdentifier"],
     "executableSHA256": hashlib.sha256((bundle / "Contents/MacOS/CodexBar").read_bytes()).hexdigest(),
     "sourceSHA256": {name: hashlib.sha256((repo / name).read_bytes()).hexdigest() for name in files},

@@ -1,6 +1,7 @@
 # Plugin percentage refresh runtime proof
 
 This is runtime-trace evidence for [CodexBar #4787](https://github.com/steipete/CodexBar/pull/4787).
+The [host platform](platform.json) is recorded alongside the build hashes.
 Both fresh macOS debug bundles use a real `NSStatusItem` created by the production
 `StatusItemController`. The receipts read its actual `NSStatusBarButton.title`.
 
@@ -30,8 +31,8 @@ countdown tasks, and no unexpected icon updates. The fixed trace contains an obs
 
 ## Provenance and method
 
-The fixed production source is commit `f37cc8120f7e1cfca4f2093018f62e9e0b537528`.
-The baseline uses the observation file from `7749f7b94ae8f1b84b9ffb2046643cec810f4078`.
+The fixed production source is commit `36b5f6c4234efbab7f03839c64541ef9e5f4f43e`.
+The baseline uses the observation file from `5f93dc3068b3bee3f8753f3772614cc2949c335d`.
 Both runs otherwise use the same application source and identical temporary proof code.
 The metadata records executable SHA-256 hashes and hashes of all temporarily instrumented files.
 
